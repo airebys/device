@@ -234,8 +234,8 @@ include device/qcom/sepolicy/sepolicy.mk
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_gemini
-TARGET_RECOVERY_DEVICE_MODULES := libinit_gemini
+TARGET_INIT_VENDOR_LIB := libinit.xiaomi_8996
+TARGET_RECOVERY_DEVICE_MODULES := libinit.xiaomi_8996
 
 # WebView Beta
 PREBUILT_WEBVIEW_VERSION := chromium
