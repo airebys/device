@@ -28,8 +28,10 @@
 #define BLE_VND_INCLUDED   TRUE
 #define BT_CLEAN_TURN_ON_DISABLED 1
 
+#pragma push_macro("PROPERTY_VALUE_MAX")
+
 /* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
 #define AVDT_NUM_SEPS 12
 
-#undef PROPERTY_VALUE_MAX
+#pragma pop_macro("PROPERTY_VALUE_MAX")
 #endif
